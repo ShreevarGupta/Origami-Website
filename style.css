@@ -1,0 +1,51 @@
+h1 {
+    color: #FFB6C1;
+    background-color: #FFFFFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.click {
+    background-color: #FFFFF0;
+    font-family: sans-serif;
+}
+
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item {
+    position: relative;
+    margin-bottom: 20px;
+}
+.item p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.item:hover p {
+    opacity: 1;
+}
+
+.item:hover img {
+    opacity: 0.3;
+    transform: scale(1.1);
+}
+
+a:link {
+    color: cornflowerblue;
+}
+
+a:visited {
+    color: blue;
+}
